@@ -4,4 +4,144 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+body {
+  color: #e5e5e5;
+  font-family: "montserrat", sans-serif;
+  background: linear-gradient(269.44deg, #264653 -3.5%, #2a9d8f 174.84%);
+  position: relative;
+  overflow: hidden;
+}
+
+header {
+  background-color: #1a2c33;
+  height: 10vh;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10% 0 10%;
+  height: inherit;
+}
+
+header nav .logo {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+header nav .logo img {
+  height: 6vh;
+}
+
+header nav .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  list-style: none;
+}
+
+header nav .nav-links li,
+header nav .nav-links a {
+  text-decoration: none;
+  color: #e5e5e5;
+  font-size: 1.3rem;
+}
+
+section {
+  max-height: 90vh;
+  margin-left: 10vw;
+}
+
+section .right-side .para {
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+section .right-side h1,
+section .right-side h3 {
+  margin-right: 2vh;
+  font-weight: 600;
+}
+
+section .right-side h1 {
+  color: #e9c46a;
+  font-size: 4rem;
+}
+
+section .right-side h3 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+section .right-side p {
+  margin-top: 5vh;
+  font-size: 1.4rem;
+}
+
+section .cta-btn {
+  margin-top: 15vh;
+  padding: 2vh 10vh;
+  background-color: #e9c46a;
+  border-radius: 0.4rem;
+  color: #1a2c33;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: "montserrat", sans-serif;
+  -webkit-clip-path: inset(10%, 50%);
+          clip-path: inset(10%, 50%);
+}
+
+.circle1,
+.circle2 {
+  position: absolute;
+}
+
+.circle1 {
+  right: 0;
+  top: 20%;
+  z-index: -1;
+}
+
+.circle1 img {
+  height: 85vh;
+}
+
+.circle2 {
+  right: 15%;
+  top: 75%;
+  opacity: 0.8;
+}
+
+.circle2 img {
+  height: 45.5vh;
+}
 /*# sourceMappingURL=styles.css.map */
