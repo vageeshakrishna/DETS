@@ -116,8 +116,6 @@ section .cta-btn {
   font-weight: 600;
   font-size: 1rem;
   font-family: "montserrat", sans-serif;
-  -webkit-clip-path: inset(10%, 50%);
-          clip-path: inset(10%, 50%);
 }
 
 .circle1,
@@ -138,7 +136,7 @@ section .cta-btn {
 .circle2 {
   right: 15%;
   top: 75%;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .circle2 img {
